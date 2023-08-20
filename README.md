@@ -19,11 +19,8 @@ This repository contains Python code for analyzing Premier League match data usi
 
 **Usage:**
 1. Install the required libraries by running: pip install pandas matplotlib numpy scikit-learn seaborn 
-
 2. Modify the file path to point to your Premier League match data CSV file.
-
 3. Run the code to execute each section sequentially.
-
 4. Examine the printed results, accuracy metrics, visualizations, and team ranking.
 
 **Note:**
