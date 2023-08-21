@@ -5,7 +5,6 @@ import numpy as np
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 import seaborn as sns
-from openpyxl.workbook import Workbook
 
 
 matches = pd.read_csv("C:/Users/Harsha/Prem_Match_Data/df_full_premierleague.csv")
@@ -97,7 +96,6 @@ all_matches_df = pd.DataFrame(all_matches)
 
 # Sort the DataFrame by team code and date
 all_matches_df.sort_values(by=['team_code', 'date'], inplace=True)
-#all_matches_df.reset_index(drop=True, inplace=True)
 
 # Convert 'is_home' column to 1 for True and 0 for False
 all_matches_df['is_home'] = all_matches_df['is_home'].astype(int)
